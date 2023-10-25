@@ -104,7 +104,7 @@ To run the client side of the project, follow these steps:
     import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
     ```
 
-3. Create an Apollo Client and set the URI section to the same URL (http://localhost:(your_PORT_number)) you used in the backend.
+3. Create an Apollo Client and set the URI section to the same URL `http://localhost:(your_PORT_number)` you used in the backend.
 
 4. Create a file named `Getbooks.jsx` and define the frontend structure to display and interact with the data.
 
@@ -118,7 +118,7 @@ First navigate to the *ClientSide* folder and run `npm create vite` proceed with
 
 Go to the *main.jsx* file and import `import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 `
-create an apolloClient and in the uri section insert the same url: (http://localhost:(your_PORT_number)) you used in the backend.
+create an apolloClient and in the uri section insert the same url: `http://localhost:(your_PORT_number)` you used in the backend.
 
 Create a file called **Getbooks.jsx** and map out the frontend of how you want the data to be parsed to the react component.
 
