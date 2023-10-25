@@ -125,8 +125,6 @@ Create a file called **Getbooks.jsx** and map out the frontend of how you want t
 
 ## Contributing
 
-Encourage others to contribute to your project. Explain how they can do so, and what the contribution process looks like. For example:
-
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature/new-feature`
 3. Make your changes and commit them: `git commit -am 'Add new feature'`
@@ -137,18 +135,6 @@ Encourage others to contribute to your project. Explain how they can do so, and 
 
 This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Acknowledgments
-
-If your project uses third-party libraries, APIs, or other resources, acknowledge them here.
-
 ## Contact
 
-Provide contact information or links to your social media profiles so that others can reach out to you with questions or feedback.
-
-## Support
-
-If you want to offer support for your project, mention it here and provide instructions on how users can seek help or report issues.
-
----
-
-**Note:** You can customize this README template to fit the specific needs of your project. Make sure to keep it up to date and informative to help others understand and use your project effectively.
+For questions or feedback, please contact [mwaura69] at [mwauramwaura69@gmail.com].
