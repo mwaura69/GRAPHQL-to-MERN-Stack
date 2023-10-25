@@ -1,0 +1,35 @@
+type Book {
+    title: String!
+    author: String
+    country: String #country of origin
+    _id: ID!
+    bookcover: String
+}
+
+type Country {
+    country: String #name of the country
+    books: [Book] #list of books from the country
+}
+
+type Author {
+    author: String
+}
+
+type BookCover {
+    bookcover: String
+}
+
+type Query {
+    books: [Book]
+    book(_id: ID!): Book
+    authors: [Author]
+    countries: [Country]
+    author(_id: ID!): Author
+    bookcover: BookCover
+}
+
+type Mutation {
+    createBook(title: String!, author: String!, country: String!, bookcover:String) : Book
+    updateBook(_id:ID!, title: String, author: String, country: String, bookcover:String) : Book
+    deleteBook(_id:ID!) : Boolean
+}
