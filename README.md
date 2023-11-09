@@ -1,6 +1,6 @@
 # GraphQl MERN Stack
 
-This is a MERN stack using graphql as the 
+This is a MERN stack using graphql as the backend that performs CRUD operations
 ## Table of Contents
 
 - [Getting Started](#getting-started)
